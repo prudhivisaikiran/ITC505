@@ -64,17 +64,26 @@
     <!-- Addendum -->
     <article>
         <h1>Addendum</h1>
-        <p>This addendum explains the structural choices made in the HTML encoding of the text from "Timon of Athens," Act 3, Scene 1.</p>
+        <p>This addendum explains the structural and stylistic choices made in the HTML and CSS encoding of the text from "Timon of Athens," Act 3, Scene 1.</p>
+        
         <h2>Structural Choices</h2>
         <ul>
-            <li><strong>&lt;h1&gt;</strong> and <strong>&lt;h2&gt;</strong> Tags: Used for the main title and scene title, respectively, to clearly delineate different sections of the content.</li>
-            <li><strong>&lt;p&gt;</strong> Tags: Employed for paragraphs and stage directions to separate blocks of text and maintain readability.</li>
-            <li><strong>&lt;strong&gt;</strong> Tags: Used to emphasize character names and specific notes such as "Exit" and "Enter," which are crucial for understanding the play's structure and actions.</li>
-            <li><strong>&lt;br&gt;</strong> Tags: Added within dialogue to maintain the formatting of lines as they appear in the original text, preserving the play's dramatic effect.</li>
+            <li><strong>&lt;h1&gt;</strong> and <strong>&lt;h2&gt;</strong> Tags: Used for the play title and scene title, respectively, to create a clear hierarchy and sectioning of content.</li>
+            <li><strong>&lt;p&gt;</strong> Tags: Employed for paragraphs and stage directions to separate blocks of text and improve readability.</li>
+            <li><strong>&lt;strong&gt;</strong> Tags: Applied to emphasize character names and important actions (e.g., "Exit," "Enter"), clarifying the dramatic structure.</li>
+            <li><strong>&lt;br&gt;</strong> Tags: Used within dialogue to preserve line breaks and the play's original structure.</li>
         </ul>
-        <h2>Rationale</h2>
-        <p>The HTML structure chosen ensures clarity and readability of the play's text. Headings provide clear section titles, while paragraphs and strong tags enhance readability and emphasize key elements. Line breaks help to maintain the dialogue format, keeping the text true to its original presentation.</p>
-        <p>This approach facilitates web display and ensures that the text remains faithful to the dramatic work, making it accessible and comprehensible online.</p>
+        
+        <h2>CSS Rationale</h2>
+        <ul>
+            <li><strong>Font Choice:</strong> The Georgia font is used for its classic look and readability in long texts.</li>
+            <li><strong>Heading Sizes:</strong> The play title uses a 2.5em size for prominence, while the scene title is set to 2em.</li>
+            <li><strong>Color Scheme:</strong> Dark blue headings (`#00509E`) and dark grey text (`#333`) provide an elegant contrast on a light grey background (`#f9f9f9`).</li>
+            <li><strong>Margins and Padding:</strong> The body has 20px padding, and articles are given margins for a clean layout.</li>
+        </ul>
+
+        <h2>HTML Abuse</h2>
+        <p>No misuse of HTML tags occurred. The `<h1>` and `<h2>` tags were used appropriately, and `<br>` tags were used only to preserve the formatting of the play's dialogue.</p>
     </article>
 
     <!-- Footer with script to show last modified date -->
@@ -86,4 +95,5 @@
     </script>
 </body>
 </html>
+
 
