@@ -1,61 +1,55 @@
-/* Global settings for the body */
+/* General Styles */
 body {
-    font-family: 'Georgia', serif; /* A formal, readable font for classical text */
-    background-color: #f9f9f9; /* Light grey for subtle background */
-    color: #333; /* Dark grey for text */
-    line-height: 1.7;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
     margin: 0;
     padding: 20px;
-}
-
-/* Headings styling */
-h1, h2 {
-    color: #00509E; /* Dark blue for headings */
-    margin-bottom: 10px;
-    font-family: 'Times New Roman', serif;
+    background-color: #f9f9f9; /* Light grey background */
+    color: #333; /* Dark grey text */
 }
 
 h1 {
-    font-size: 2.5em; /* Large size for the main title */
+    color: #00509E; /* Dark blue */
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
-    font-size: 2em; /* Slightly smaller for subheadings */
+    color: #00509E; /* Dark blue */
+    font-size: 2em;
+    margin-top: 1em;
 }
 
-/* Paragraph styling */
-p {
-    margin: 10px 0;
-    font-size: 1.1em;
-    text-align: justify; /* Justified text for a formal look */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px;
+    background-color: #fff; /* White background for articles */
 }
 
-/* Strong tag styling for character names and stage directions */
 strong {
-    color: #900; /* Dark red to highlight important terms like character names */
+    color: #900; /* Dark red for emphasis */
 }
 
-/* Link styling */
-a {
-    color: #00509E;
-    text-decoration: none;
+/* Works Cited and Addendum Styles */
+header {
+    margin-bottom: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+ul {
+    margin: 10px 0;
+    padding-left: 20px; /* Indentation for list items */
 }
 
-/* Footer styling */
+/* Footer Styles */
 footer {
-    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #00509E; /* Dark blue background */
     color: white;
     text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-#lastModified {
-    font-style: italic;
+    padding: 10px 0;
 }
