@@ -32,24 +32,13 @@ strong {
     color: #900; /* Dark red for emphasis */
 }
 
-/* Works Cited and Addendum Styles */
-header {
-    margin-bottom: 10px;
-}
-
-ul {
-    margin: 10px 0;
-    padding-left: 20px; /* Indentation for list items */
-}
-
 /* Footer Styles */
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
     background-color: #00509E; /* Dark blue background */
-    color: white;
+    color: #fff; /* White text */
+    padding: 10px;
     text-align: center;
-    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
