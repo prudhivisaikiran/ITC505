@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Game - The Quest Begins</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Quest Begins: Choose Your Own Adventure</h1>
+    </header>
+
+    <main>
+        <div id="story-container">
+            <p id="story-text">Your adventure begins...</p>
+        </div>
+
+        <div id="choices-container"></div>
+
+        <div id="image-container">
+            <img id="story-image" src="" alt="Story Image">
+        </div>
+    </main>
+
+    <footer>
+        <p>Last updated: 
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
