@@ -17,10 +17,11 @@ const storyNodes = {
         image: "images/cave.jpg"
     },
     glowingPath: {
-        text: "You follow the glowing path and encounter a wise old man. He offers you a choice: a magic potion or a mysterious key. What do you take?",
+        text: "You follow the glowing path and encounter a wise old man. He offers you a choice: a magic potion, a mysterious key, or to enter a hidden garden. What do you take?",
         choices: [
             { text: "Take the potion", nextNode: "potion" },
-            { text: "Take the key", nextNode: "key" }
+            { text: "Take the key", nextNode: "key" },
+            { text: "Enter the hidden garden", nextNode: "hiddenGarden" }
         ],
         image: "images/glowing-path.jpg"
     },
@@ -74,6 +75,11 @@ const storyNodes = {
         text: "You try to swim across, but the river pulls you under. You’re swept away. Game Over.",
         choices: [],
         image: "images/drown.jpg"
+    },
+    hiddenGarden: {
+        text: "You stumble upon a hidden garden filled with mystical flowers. As you step inside, the flowers bloom, and a sense of peace fills you. You decide to stay in this serene place, living a peaceful life surrounded by nature. The end.",
+        choices: [],
+        image: "images/hidden-garden.jpg"
     }
 };
 
