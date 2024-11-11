@@ -1,0 +1,111 @@
+/* General Styling */
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sidebar content advertisement"
+        "footer footer footer";
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Colorful sections */
+header {
+    grid-area: header;
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 1em;
+    font-size: 24px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #ccffcc;
+    padding: 1em;
+}
+
+.content {
+    grid-area: content;
+    background-color: #cce5ff;
+    padding: 1em;
+}
+
+.advertisement {
+    grid-area: advertisement;
+    background-color: #fff3cd;
+    padding: 1em;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #f8d7da;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Visualization area for square boxes */
+#visualization {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f0f0f0;
+    justify-content: center;
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+/* Blinking effect */
+.blink {
+    animation: blink 0.5s infinite alternate;
+}
+
+@keyframes blink {
+    0% { background-color: #007bff; }
+    100% { background-color: #28a745; }
+}
+
+/* Button styling */
+#sortButton {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#sortButton:hover {
+    background-color: #0056b3;
+}
+
+#sortedOutput {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+

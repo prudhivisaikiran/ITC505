@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Sorting Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Page Title -->
+    <header>
+        <h1>Dynamic Array Sorter with JS & CSS Grid</h1>
+    </header>
+
+    <!-- Navigation Sidebar -->
+    <aside class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="content">
+        <h2>Sort Your Numbers!</h2>
+        <p>Enter a list of numbers separated by commas, then click "Sort Array" to see the sorting steps.</p>
+        <input type="text" id="userArray" placeholder="e.g., 5,3,8,4,2" />
+        <button id="sortButton">Sort Array with bubble sort</button>
+        <div id="output"></div>
+        <div id="visualization"></div>
+        <p id="sortedOutput"></p>
+    </main>
+
+    <!-- Advertisement Section with Clickable Image -->
+    <aside class="advertisement">
+        <a href="https://www.amazon.com/" target="_blank">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/best-prime-big-deal-days-2023-652594996c4c3.png?crop=1.00xw:1.00xh;0,0&resize=1200:*" alt="Advertisement" width="100%" />
+        </a>
+        <p>Click on the above image to visit the Amazon official site...!</p>
+    </aside>
+
+    <!-- Footer Section with Addendum and Last Modified Script -->
+    <footer>
+        <p>Addendum: This page allows users to enter numbers, sort them with a visualization, and display the result interactively.</p>
+        <p>Last updated: <span id="lastModified"></span></p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+    <script type="text/javascript">
+        document.getElementById('lastModified').textContent = document.lastModified;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
